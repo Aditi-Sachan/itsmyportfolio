@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" id="theme-stylesheet" href="light-theme.css">
+        <link rel="stylesheet" href="ind.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="">
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+            .nav a:hover{
+                color: green;
+            }
+            .nav{
+                text-align: right;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                background-color: lightcoral;
+                padding-right: 30px;
+                position: sticky;
+                top: 0%;
+                z-index: 1;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            .hi{
+                margin-left: 800%;
+                font-size: 35px;
+                margin-top: 30px;
+                padding-top: 100px;
+            }
+            .name{
+                margin-left: 800%;
+                font-size: 30px;
+                color: red;
+                margin-top: 30px;
+            }
+            .section1{
+                float: left;
+                width: 30px;
+            }
+            .image img{
+                margin-left: 17%;
+                margin-top: 105px;
+                padding-right: 0%;
+                border-radius: 60%;
+                float: left;
+                box-shadow: 35px 30px 50px grey;
+            }
+            .welcome{
+                float: left;
+                margin-left: 20px;
+                font-size: 30px;
+                color: blue;
+            }
+            .des{
+                margin-left: -160px;
+                font-size: 20px;
+                font-style: italic;
+                padding-top: 30px;
+                
+            }
+            .contact{
+                display: inline;
+                float: left;
+                font-size: 40px;
+                margin-left: -310px;
+                background-color: green;
+                color: greenyellow;
+                margin-top: 60px;
+            }
+            .logo img{
+                height: 40px;
+                width: 40px;
+                margin-left: 80px;
+                margin-top: 60px;
+                box-shadow: 25px 20px 30px grey;
+            }
+            .section2{
+                margin-top: 50%;
+                text-align: center;
+                background-color: aquamarine;
+            }
+            .section2 img{
+                float: right;
+                margin-right: 270px;
+                border-radius: 0%;
+                border: 5px solid;
+                border-color: gray;
+                border-top-right-radius: 35%;
+                border-bottom-left-radius: 35%;
+                padding: 5px;
+                margin-top: 5% ;
+                box-shadow: 0px 0px 40px aquamarine;
+            }
+            .intro{
+                margin-left: 11%;
+                margin-top: 8%;
+                font-size: 24px;
+            }
+            hr{
+                margin-top: 10%;
+                height: 15px;
+                background-color: aquamarine;
+            }
+            .section3{
+                margin-top: 7%;
+                margin-left: 10%;
+                text-decoration: underline;
+            }
+            .skl{
+                padding-top: 90px;
+                padding-bottom: 90px;
+                background-image: url(skill.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 30px;
+            }
+            .progress-bar1{
+                display:flex;
+                justify-content: center;
+            }
+            .progress-bar2{
+                display:flex;
+                justify-content: center;
+                margin-top: 5%;
+            }
+            .python {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                background: 
+                    radial-gradient(closest-side, pink 77%, transparent 50% 100%),
+                    conic-gradient(green 70%, white 0);    
+            }
+            .java{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                background: 
+                    radial-gradient(closest-side, pink 77%, transparent 50% 100%),
+                    conic-gradient(green 60%, white 0);
+            }
+            .mysql{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                background: 
+                    radial-gradient(closest-side, pink 77%, transparent 50% 100%),
+                    conic-gradient(green 65%, white 0);
+            }
+            .html , .css{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                background: 
+                    radial-gradient(closest-side, pink 77%, transparent 50% 100%),
+                    conic-gradient(green 75%, white 0);
+            }
+            .python, .java, .html, .css, .mysql{
+                color: black;
+            }
+            .hobbies {
+                background-color: cornflowerblue;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+                margin-top: 70px;
+            }
+            h1 {
+                margin: 0;
+            }
+            .hobby {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 40px;
+            }
+            .hobby img:hover {
+                translate: 0px -20px;
+                box-shadow: 0px 0px 30px red;
+            }
+            h2{
+                color:blueviolet;
+            }
+            p{
+                font-size: 20px;
+            }
+            footer{
+                background-color: rgb(220, 213, 213);
+            }
+            footer img{
+                height: 60px;
+                width: 60px;
+                margin-top: 30px;
+                margin-left: 75%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <h2>
+                <div class="welcome"><b>Wecome to my PORTFOLIO-</b></div>
+                <div class="options"><a href="#home">Home &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#about">About &nbsp;&nbsp;&nbsp;&nbsp;</a>                
+                <a href="#skills">Skills &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#home">Contact &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#hobbies">Hobbies &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#footer" style="color: black;">Dark Mode</a></div>
+            </h2>   
+        </div>
+        <div class="image"><img height="350" width="330" alt="AS" src="C:\Users\91860\Desktop\itsmyportfolio\WhatsApp Image 2023-06-15 at 15.24.59.jpeg"></div>
+        <div class="section1" id="home">
+            <div class="hi"><strong>Hi&nbsp;I&nbsp;am</strong></div>
+            <div class="name"><h1><strong>Aditi Sachan</strong></h1></div>
+            <div class="des">
+                <pre>
+                    * A Computer Science Engineering student studying at
+                            GLA Universiy, Mathura, India. *
+                </pre>
+            </div>
+            <div class="contact" id="home">
+                Contact with me:
+            </div>
+            <div class="logo">
+                <table><tr><td><a href="mailto:aditisachan27@gmail.com" target="_blank"><span><img src="C:\Users\91860\Desktop\itsmyportfolio\gmail.png" alt="gmail"></span></a></td>
+                <td><a href="https://www.linkedin.com/in/aditi-sachan-067528246/" target="_blank"><span><img src="C:\Users\91860\Desktop\itsmyportfolio\linkedin.png" alt="linkedin"></span></a></td>
+                <td><a href="tel:+918601911715" target="_blank"><span><img src="C:\Users\91860\Desktop\itsmyportfolio\phone.jpg" alt="contact no."></span></a></td>
+                <td><a href="tel:+919415087001" target="_blank"><span><img src="C:\Users\91860\Desktop\itsmyportfolio\telegram.png" alt="telegram"></span></a></td></tr></table>
+            </div>
+        </div>
+        <div class="section2" id="about">
+            <h1>About me</h1>
+            <img height="200" width="150" src="C:\Users\91860\Pictures\Saved Pictures\WhatsApp Image 2023-06-15 at 15.26.06.jpeg">
+        </div> 
+        <div class="intro">
+            > I am a hardworking and passionate Computer Science Engineering student. Dedicated to my work and eager to learn new skills. I want to work as web developer to improve my skills.
+            I am always ready to learn from others.
+            <br>
+            <br>
+            ><mark> I am trustworthy and ambitious student that really enjoys computer science.</mark> 
+        </div> 
+        <hr>
+        <div class="section3" id="skills">
+            <h1>SKILLS:</h1>
+        </div>
+        <div class="skl">
+            <div class="progress-bar1">
+                <div class="python">
+                    <div>70%</div>
+                    <div style="font-size: 20px;"><b>Python</b></div>
+                </div>
+                <div class="java", style="margin-left: 10%;">
+                    <div>60%</div>
+                    <div style="font-size: 20px;"><b>Java</b></div> 
+                </div>
+                <div class="mysql", style="margin-left: 10%;">
+                    <div>65%</div>
+                    <div style="font-size: 20px;"><b>MySql</b></div> 
+                </div>
+            </div>
+            <div class="progress-bar2">
+                <div class="html">
+                    <div>75%</div>
+                    <div style="font-size: 20px;"><b>Html</b></div> 
+                </div>
+                <div class="css", style="margin-left: 10%;">
+                    <div>75%</div>
+                    <div style="font-size: 20px;"><b>Css</b></div> 
+                </div>
+            </div>
+        </div>
+        <div class="section5" id="hobbies">
+            <div class="hobbies">
+                <h1>My Hobbies</h1>
+            </div>
+            <section class="hobby">
+                <img src="C:\Users\91860\Pictures\Saved Pictures\board games.jpg" alt="Board games">
+                <h2>Playing Board Games</h2>
+                <p><b>Gather my friends or family and enjoy a fun board game night. There are countless board games available, ranging from strategic to cooperative to trivia-based.</b></p>
+            </section>
+            <section class="hobby">
+                <img src="C:\Users\91860\Pictures\Saved Pictures\hiking.jpg" alt="Hiking">
+                <h2>Hiking or Nature Walks</h2>
+                <p><b>Explore the great outdoors by going on hikes or nature walks. It's an excellent way to stay active, connect with nature, and enjoy beautiful landscapes.</b></p>
+            </section>
+            <section class="hobby">
+                <img src="C:\Users\91860\Pictures\Saved Pictures\dance.jpg" alt="Dancing">
+                <h2>Dancing</h2>
+                <p><b>Take up dancing as a hobby and learn different styles such as salsa, hip-hop, ballet, or ballroom. Dancing is a great way to stay active while expressing myself creatively.</b></p>
+            </section>
+        </div>
+        <footer id="footer">
+            <div>
+                <img src="C:\Users\91860\Pictures\Saved Pictures\as.png" alt="logo">
+                <div style="margin-left: 65%; margin-top: 5px; font-size: 20px;">
+                    © Designed and developed by
+                    <span>"Aditi Sachan"</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <body id="contentElement" class="light-theme">
+
+        <footer><button id="theme-toggle-btn" class="theme-toggle-button">Toggle Theme</button>
+        <label class="switch">
+          <input id="switch-toggle" type="checkbox" onchange="handleCheckbox()">
+          <span class="slider round"></span>
+        </label>
+        <script src="./ind.js"></script></footer>
+
+    </body>
+</html>

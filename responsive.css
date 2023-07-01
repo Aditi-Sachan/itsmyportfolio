@@ -1,0 +1,77 @@
+@media  (max-width: 480px) {
+    body{
+        width: 384px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav {
+        width: 382px;
+        font-size: 10px;
+        z-index: 1;
+    }
+    b {
+        font-size: 20px;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .progress-bar1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .progress-bar2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    pre{
+        font-size: 13.5px;
+        float: left;
+        translate: 0px -130px;
+    }
+    .section2{
+        translate: 0px -100px;
+    }
+    .intro{
+        translate: 0px -50px;
+    }
+    .contact{
+        translate: 0px -90px;
+    }
+    .logo{
+        translate: -80px -50px;
+    }
+    strong{
+        font-size: 40px;
+        float: left;
+        translate: -100px -150px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .image img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 35px 30px 50px grey;
+        padding-top: 0%;
+        translate: 30px -50px;
+    }
+    hr{
+        width: 413px;
+    }
+    .section5{
+        width: 413px;
+    }
+    footer{
+        width: 413px
+    }
+}
+ 
+    
+
